@@ -18,7 +18,7 @@ public class SendMassageDemo {
 //        ip地址
         InetAddress address = InetAddress.getByName("127.0.0.1");
 //        端口号:
-        Integer port = 10086;
+        int port = 10086;
 
         DatagramPacket dp = new DatagramPacket(bytes, bytes.length, address, port);
 

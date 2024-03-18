@@ -1,4 +1,4 @@
-package com.jackson.mytest.tets2;
+package com.jackson.mytest.test2;
 
 import java.io.*;
 import java.net.InetAddress;

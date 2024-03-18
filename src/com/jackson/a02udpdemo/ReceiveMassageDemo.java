@@ -15,7 +15,7 @@ public class ReceiveMassageDemo {
 //        创建DatagramPocket对象
         DatagramPacket dp = new DatagramPacket(bytes, bytes.length);
 //        接收数据
-        ds.receive(dp);
+//        ds.receive(dp);
 
 //        获取传输的ip地址
         InetAddress address = dp.getAddress();
